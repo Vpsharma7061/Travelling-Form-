@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/* jisme pura form hai  */
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(66, 168, 184); */
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+
+}
+
+p{
+    font-size: 22px;
+}
+
+h1{
+    color: rgb(28, 148, 178);
+}
+
+  /* form ka input + text area */
+input,textarea{
+    width: 70%;
+    margin: 12px auto;
+    padding: 6px;
+    font-size: 20px;
+    border: 2px solid rgb(207, 74, 74);
+    border-radius: 5px;
+    outline: none;
+    display: block;
+
+}
+/* submit button */
+.btn{
+    
+    padding: 10px 10px;
+    margin-left: 48%;
+    border-color: rgb(178, 63, 63);
+    border-radius: 12px;
+    color: rgb(222, 210, 210);
+    background-color: rgb(57, 173, 184);
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+ /* college image  */
+.bg{ 
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+.submitMsg{
+    color: rgb(15, 221, 28);
+}
